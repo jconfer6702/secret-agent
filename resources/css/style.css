@@ -1,0 +1,91 @@
+html{
+  font-size:18px;
+  font-family:helvetica;
+}
+.logo{
+  display: flex;
+  background-color: black;
+  padding-left: 60px;
+}
+h1{
+
+  font-size: 1rem;
+  color:white;
+  padding-left: 20px;
+}
+.flex-container{
+  display: flex;
+  align-items: center;
+}
+#bike{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  width: 100%;
+  height: 25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ #bike .text{
+
+  color: white;
+  background-color: black;
+  padding:2rem;
+  margin-left: 100px;
+}
+.links{
+  display:flex;
+  justify-content: space-around;
+  background-color: firebrick;
+  color: white;
+  list-style: none;
+}
+li{
+  display: inline;
+  list-style: none;
+  color:white;
+  padding-top:0.75rem;
+  padding-bottom: 0.75rem
+}
+.flex-container-items{
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+}
+.picture{
+
+  border: 4px solid black;
+
+}
+figure{
+  background-color: black;
+  color: white
+}
+.location{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#one{
+  background-color:black;
+  width: 35%;
+  height: auto;
+  padding-left: 2rem;
+  color:white;
+}
+#two{
+  background-color:black;
+  width: 35%;
+  height: auto;
+  padding-left: 2rem;
+  color: white;
+}
+footer{
+  height: 5rem;
+  text-align: left;
+  color:white;
+  background-color: black;
+  padding-top: 2rem;
+}
