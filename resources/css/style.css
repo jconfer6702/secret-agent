@@ -1,7 +1,3 @@
-html{
-  font-size:18px;
-  font-family:helvetica;
-}
 
 .logo{
   display: flex;
@@ -10,6 +6,7 @@ html{
   height: 1.5rem;
   padding-top:0.66rem;
   padding-bottom:0.66rem;
+  padding-left: 1rem;
 }
 h1{
   font-size: 1rem;
@@ -74,11 +71,16 @@ li{
 .picture{
   border: 4px solid black;
 }
- figure{
+ .picture figure{
    background-color: black;
    color: white;
-   padding-top: 2rem;
-   padding-bottom:2rem:
+   padding-top: .5rem;
+   padding-bottom: .5rem;
+}
+figcaption{
+  text-align: center;
+
+
 }
 .location{
   display: flex;
@@ -109,7 +111,7 @@ li{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 #three{
   width: 35%;
@@ -124,7 +126,6 @@ li{
 footer{
   height:5rem;
   text-align: left;
-  align-content: center;
   color:white;
   background-color: black;
 
